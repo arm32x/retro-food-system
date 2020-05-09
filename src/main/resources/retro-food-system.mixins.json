@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "package": "arm32x.minecraft.retrofoodsystem.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "HungerManagerMixin",
+        "InGameHudMixin",
+        "ItemMixin",
+        "PlayerEntityMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
