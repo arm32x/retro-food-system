@@ -41,7 +41,7 @@ public abstract class ItemMixin implements ItemConvertible {
 	@Inject(method = "<init>(Lnet/minecraft/item/Item$Settings;)V", at = @At("RETURN"))
 	public void onInitialize(Item.Settings settings, CallbackInfo ci) {
 		if (this.foodComponent != null) {
-			this.maxCount = 1;
+			this.maxCount = AutoConfig.getConfigHolder(ModConfig.class).getConfig().foodStackSize;
 		}
 	}
 	

@@ -11,7 +11,7 @@
     "icon": "assets/retro-food-system/icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": [
+        "preLaunch": [
             "arm32x.minecraft.retrofoodsystem.RetroFoodSystem"
         ],
         "modmenu": [

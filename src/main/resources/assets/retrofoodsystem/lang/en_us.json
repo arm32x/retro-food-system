@@ -1,5 +1,6 @@
 {
     "text.autoconfig.retro-food-system.title": "Retro Food System Config",
     "text.autoconfig.retro-food-system.option.useEatingAnimation": "Use Eating Animation",
-    "text.autoconfig.retro-food-system.option.sprintingMode": "Sprinting Mode"
+    "text.autoconfig.retro-food-system.option.sprintingMode": "Sprinting Mode",
+    "text.autoconfig.retro-food-system.option.foodStackSize": "Maximum Food Stack Size"
 }
