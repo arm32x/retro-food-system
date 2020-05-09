@@ -1,7 +1,5 @@
 package arm32x.minecraft.retrofoodsystem.mixin;
 
-import java.util.Arrays;
-
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.hud.InGameHud;

@@ -1,14 +1,6 @@
 package arm32x.minecraft.retrofoodsystem.mixin;
 
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.loader.gui.FabricGuiEntry;
-import net.fabricmc.loader.launch.common.FabricLauncher;
-import net.minecraft.MinecraftVersion;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.gui.hud.InGameOverlayRenderer;
-import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.player.HungerManager;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.MathHelper;

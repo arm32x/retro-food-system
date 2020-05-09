@@ -1,12 +1,9 @@
 package arm32x.minecraft.retrofoodsystem.mixin;
 
-import java.util.Iterator;
-import java.util.List;
 import java.util.Objects;
 
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FoodComponent;
