@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "retro-food-system",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "name": "Retro Food System",
     "description": "Brings back the food & health systems from the beta versions of Minecraft.",
     "authors": [
