@@ -1,14 +1,20 @@
 plugins {
     id 'fabric-loom' version '0.4.3'
     id 'maven-publish'
+    id 'com.gladed.androidgitversion' version '0.4.14'
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-archivesBaseName = project.archives_base_name
-version = project.mod_version
-group = project.maven_group
+androidGitVersion {
+    format = "%tag%%+count%%.commit%%.dirty%"
+    untrackedIsDirty = true
+}
+
+archivesBaseName = "arm32x.minecraft"
+version = androidGitVersion.name()
+group = "retro-food-system"
 
 minecraft {
 }
